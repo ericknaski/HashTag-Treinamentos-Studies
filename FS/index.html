@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Elementos</title>
+  </head>
+  <body>
+    <h1 style="color: blueviolet">Olá, mundo!</h1>
+
+    <!-- 's' e 'p' tem uma semântica diferente -->
+    <p id="paragrafo-inicio1">parágrafo</p>
+    <p id="paragrafo-inicio2">parágrafo</p>
+    <p id="paragrafo-inicio3">parágrafo</p>
+
+    <p class="paragrafo">parágrafo</p>
+    <p class="paragrafo">parágrafo</p>
+    <p class="paragrafo">parágrafo</p>
+
+    <div class="div1">
+      <p>parágrafo</p>
+      <p>parágrafo</p>
+      <p>parágrafo</p>
+    </div>
+
+    <p style="font-size: large">parágrafo</p>
+
+    <span style="font-size: 40px">tag span</span>
+    <span>tag span</span>
+
+    <h2>texto h2</h2>
+    <h3>texto h3</h3>
+    <h4>texto h4</h4>
+    <h5>texto h5</h5>
+    <h6>texto h6</h6>
+
+    <!-- 'b' e 'strong' tem uma semântica diferente, o último é realmente importante -->
+    <!-- 'i' e 'em' tem uma semântica diferente, o último é realmente importante -->
+    <p>
+      usando <b>span</b> dentro <strong>do</strong>
+      <span>
+        parágrafo para <i>teste</i> em diferentes
+        <em>textos</em>
+      </span>
+    </p>
+
+    <code>exportar pandas</code>
+
+    <style>
+      code {
+        color: blue;
+      }
+    </style>
+
+    <blockquote>esse é um texto utilizando o <i>blockquote</i></blockquote>
+
+    <!-- hr serve para criar uma linha -->
+    <!-- br serve para criar um parágrafro -->
+    <!-- sup serve para elevar um texto -->
+    <!-- br serve para descer um texto -->
+    <hr />
+    <p>
+      estou escrevendo um <sup>texto</sup> para <sub>testar</sub> o parágrafo
+      <br />
+      dei um parágrafo
+    </p>
+
+    <!-- criando listas - ol: ordenada / ul: não ordenada / dl: lista descritiva-->
+    <ol>
+      <li>item</li>
+      <li>item</li>
+      <li>item</li>
+      <li>item</li>
+      <li>item</li>
+      <li>item</li>
+    </ol>
+
+    <ul>
+      <li>item</li>
+      <li>item</li>
+      <li>item</li>
+      <li>item</li>
+      <li>item</li>
+    </ul>
+
+    <dl>
+      <dt>Heading Tag</dt>
+      <dd>É uma tag <b>usada</b> para criar títulos</dd>
+    </dl>
+
+    <!-- criando hiperlinks - externos e internos / há um atributo dentro da tag-->
+    <a
+      href="https://portal.hashtagtreinamentos.com/lessons?lessonId=7384&courseId=12990&courseName=Full+Stack+Impressionador&lessonType=lesson_theory"
+      target="_blank"
+      >Hashtag</a
+    >
+    <br />
+    <a href="#paragrafo-inicio" target="_self">lista</a>
+    <br />
+    <figure>
+      <img src="foto.jpg" alt="logo" width="100px" height="" />
+      <figcaption>erick lindo</figcaption>
+    </figure>
+    <img
+      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAAeCAYAAABpP1GsAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABPlJREFUeNrsXE1y2jAUVjrdh/YCcbfdhOy7wCeAnAAz033CCQgngOw7Az0B5AQ4M93jbroNuUDjniB9z/k0vAj/QbIxet+MBmzLskS+T+9HcoxRKBSFOPFloK0fvwL6iKhc8WGNWzZULtLv31KliQrEeCQUFsd1TaFMSSBDpYkKxHgqlBmVXkm1lATySWmiAjEeC4WtyaSkSkgiiZUqfuKD7z8AkX9KHwOlgiIPH/UnyEQyJ0tyjthk57Jjcdgla1NhqxKgZN/RToTjCPfORbtTDfrVgjQVY1cMiEESIY4A7liCAL9PpYuAv49qfYjGnl9QOUW51p9ZBdJUK8LiWDqnbwuqByC/gTW5hYAis82McZ2fVO6p/NNfWAXSSPz+8zmgMqHSocNHx7WaOiLaQAxdkJ/LJcQwxvk787KGMqT6N2jjDMKZKuWahRPPxXEDSxCef/2bkAXg4xEuXxLBl0oRDdJ9FEYLsQFbjQGLA5fO8DlXcSi8tSAkkDVih5TE8QnxA4vmgeMQEkdl2pfqd8RhIrNTCOYDG+TTcVvEJkleJkvck5ccaKG/7ObFom7Rc3f65fap7rNzxrpzXQVyXOLgLJTNJsUkkBAkYPfqtGprCci+cIiYIuaYi7bYVYtxrefUDS3JSlb0Y7h5KQi6wvkB6hu0E6NPE1hEF2OOhWSf6DgUxJ9Y8QnYdqXLKZGgbxsN0o8sIDfFqda4hjgCEDUAScYgckZyXJdog/gb1DOoK0lnxWGTAjaQt+R1MZNEhThWQhyxKEZ8Fo2ljf5NMZ7E7Ka7Y3HNjmuiMcjxoZdDYGNdlxr3j0DwDdW/EGR7MNvUrxRZC/HMAPWY3JF1t0DunkgKxDj/CAJGZneV37VAM7T36rywTkWIxHe5a/lGnGeLKBc32RJZMbZVIMeHrjuRklWJyM2a17zfztIbuB+mSHACUjCPJYLtCF//zHHpJOZCHG3xzKEbG1Ss2kv3aEFtjd1JwrpQeE7HvN79HKhA/MAVZso6CIRQOjXqx3tsLRkVeXbO8V3BtWVOYN2Btcsb3xJjt+RngSaIWZZCGJOaY9UYpMGxR9kfuE3X990CwoQLc8qh745sCtrbZydxK8fasej6eZVZuHATh8KatGFNenDPrDuVJQyofEEs4g18sSB9/JGTgtmQV9JjsR5ShNQS8Z23wGdB/xs3MvbMASv12M08hcVZYHz2ZbKWiI9surirFuT4wFaCZ8f7kjorZLnKYN2YyFkbyFyanCyWqdleJlIZVHNb2DlcRu5YZJxG2AtWz9y8tB+JZyZOXBLk3BP5Epx7JxCeFclCLB0SuC7KAqvsRZA7flecveKsDpVns03/7jN7J1J0VJ7QHmfFHsx2Q2QZBqL/nGp+Rn9GNazWDM/k+k+C/PdOXMbjXKN+qgI5TkSwEOMKIRVaEmR1QrNdWwiEy5YcSJ6BI7wO2k0rLJ7t09Lpkxvb3JW4i65LyccDXljEWKX47DswXr1c5sVKOhH+2RKArMgFHa8qMjPZmkJVTAKXKn3Pl6A4c/SWrRw2Lfye20HgTiY+vuzli0DWwn2YY8Zem/L/apJtH9ljjUShLlZjIWfTCP55WOESZT499m4pVCBHDdeXjxAA1/Gnr9kC1chwKVQgjUXeux3WklzWCK7ZPVsfsKCo0BikMXGI3ShYJKBezaZi8/KS1Ubpo1AovMZ/AQYAQZI26c5DemMAAAAASUVORK5CYII="
+      alt="ENERGISA"
+      width="100px"
+    />
+  </body>
+</html>
