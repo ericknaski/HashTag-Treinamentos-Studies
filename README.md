@@ -1,9 +1,9 @@
 # HashTag-Treinamentos-Studies
 
-- Português
+### Português
   
 Repositório com exercícios, projetos e anotações desenvolvidos durante os cursos da HashTag Treinamentos, com foco em aprimorar conhecimentos e registrar minha evolução nos estudos.
 
-- English
+### English
   
 Repository containing exercises, projects, and notes developed during HashTag Treinamentos courses, focused on improving skills and tracking my learning progress.
